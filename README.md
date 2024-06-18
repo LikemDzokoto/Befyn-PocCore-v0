@@ -7,7 +7,7 @@
 | Contract Name            | Addresses                                  |
 | ------------------------ | ------------------------------------------ |
 | Insurance Contract       |                                            |
-| User Contract (xNGN)     |                                            |
+| User Contract            |                                            |
 | Pool Contract            |                                            |
 
 
