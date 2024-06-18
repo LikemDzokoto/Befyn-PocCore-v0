@@ -4,7 +4,7 @@
 #### For more  depth info , check out our Befyn Dev Docs  [here](https://github.com/likemdzokoto/Befyn-Docs)
 ## Contract  Deployment Address
 
-### Optimism Goerli
+### Optimism Sepolia 
 
 | Contract Name            | Addresses                                  |
 | ------------------------ | ------------------------------------------ |
