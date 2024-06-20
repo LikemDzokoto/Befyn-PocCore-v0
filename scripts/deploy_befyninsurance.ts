@@ -14,7 +14,7 @@ async function main() {
   console.log("Account balance:", balance.toString());
 
   const MATURITY_PERIOD = 30 * 24 * 60 * 60; // 30 days in seconds
-  const CLAIM_AMOUNT = ethers.utils.parseEther("1.0"); // 1 Ether
+  const CLAIM_AMOUNT = ethers.parseEther("1.0"); // 1 Ether
 
   const BefynInsurance = await ethers.getContractFactory("BefynInsurance");
   const befynInsurance = await BefynInsurance.deploy(MATURITY_PERIOD, CLAIM_AMOUNT);
@@ -27,7 +27,7 @@ async function main() {
   console.log(`BefynInsurance deployed to ${JSON.stringify(tx, null, 2)}`);
 
   // Verify contract on Etherscan
-  await Etherscan.verify(befynInsurance.address);
+  // await Etherscan.verify(befynInsurance.address);
 
   // Wait for the deployment to be verified on Etherscan
   await sleep(30000); // 30 seconds
