@@ -8,10 +8,13 @@
 
 | Contract Name            | Addresses                                  |
 | ------------------------ | ------------------------------------------ |
-| Insurance Contract       |                                            |
-| User Contract            |                                            |
-| Pool Contract            |                                            |
+| BefynInsurance Contract  |0xF1Ee410A21e6bc59dbE63c3816391a06dDCCd047  |
+
 
 
 
 To setup project, you need to  run:
+
+- ` npm install`
+
+-  `npx hardhat compile` 
