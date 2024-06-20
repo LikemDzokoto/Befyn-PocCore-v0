@@ -4,11 +4,11 @@
 #### For more  depth info , check out our Befyn Dev Docs  [here](https://github.com/likemdzokoto/Befyn-Docs)
 ## Contract  Deployment Address
 
-### Optimism Sepolia 
+### Sepolia 
 
 | Contract Name            | Addresses                                  |
 | ------------------------ | ------------------------------------------ |
-| BefynInsurance Contract  |0xF1Ee410A21e6bc59dbE63c3816391a06dDCCd047  |
+| BefynInsurance Contract  | 0x6777B22b55286025A5a48d970772811AC3bAD1a3 |
 
 
 
@@ -18,3 +18,5 @@ To setup project, you need to  run:
 - ` npm install`
 
 -  `npx hardhat compile` 
+
+- `npx hardhat run scripts/deploy_befyninsurance.ts --network sepoliaTestnet  `
