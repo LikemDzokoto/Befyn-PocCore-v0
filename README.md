@@ -26,9 +26,9 @@
 ### BefynInsurance.sol
 BefynInsurance Contract an  insurance contract where users can register, make premium payments, and submit claims. 
 
--Here's a breakdown of the contract's functionality:
+#### Here's a breakdown of the contract's functionality:
 
--Registration: Users can register using the register() function, which sets a flag in the registered Users mapping.
+- Registration: Users can register using the register() function, which sets a flag in the registered Users mapping.
 - Premium Payments: Users can make premium payments using the premiumA() and premiumB() functions, which add the payment to the user's payment history and update their total amount paid.
 - Claim Submission: Users can submit a claim using the makeClaim() function, which verifies the claim purpose using a ZK pass (simplified logic for demonstration purposes), checks if the user is registered and if the claim is matured, and transfers the claim amount to the user.
 - Claim History: Users can get their claim history using the getClaimRequests() function.
