@@ -39,7 +39,7 @@ BefynInsurance Contract an  insurance contract where users can register, make pr
 
 
 ## Functions:
-`
+
 - register(): Allows a user to register.
 - premiumA() and premiumB(): Allow users to make premium payments.
 - getPaymentHistory(): Returns a user's payment history.
@@ -49,23 +49,23 @@ BefynInsurance Contract an  insurance contract where users can register, make pr
 - poolBalance(): Returns the contract's balance.
 - receive() and fallback(): Fallback functions to receive Ether (currently set to call premiumA()).
 
-`
+
 
 ## Structs
-`
+
 - User: Stores information about a user's payments and claims.
 - PaymentHistory and ClaimHistory: Store information about a user's payments and claims respectively.
 
-`
-## Event
-`
+
+## Events
+
 - UserPaymentEvent: Emitted when a user makes a premium payment.
 - UserClaimEvent: Emitted when a user submits a claim request.
 - UserRegistered: Emitted when a user registers.
 - ClaimMade and ClaimPaid: Emitted when a claim is made and paid respectively.
 - PoolUpdateEvent: Emitted when the contract's balance is updated.
 
-`
+
 
 
 
